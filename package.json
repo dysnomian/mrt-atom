@@ -1,7 +1,7 @@
 {
   "name": "mrt-atom",
   "main": "./lib/mrt-atom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Elixir test watcher for Atom",
   "keywords": [],
   "dependencies": {
@@ -11,7 +11,7 @@
     "atom-workspace": "mrt-atom:toggle"
   },
   "author": {
-    "name" : "Christian Schultheiss"
+    "name": "Christian Schultheiss"
   },
   "repository": "https://github.com/chriserik/mrt-atom",
   "license": "MIT",
