@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Start/Stop Elixir test watcher",
+        "command": "mrt-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Elixir test watcher",
+          "submenu": [
+            {
+              "label": "Start/Stop",
+              "command": "mrt-atom:toggle"
+            },
+            {
+              "label": "Run all tests",
+              "command": "mrt-atom:run_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
