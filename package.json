@@ -1,7 +1,7 @@
 {
   "name": "mrt-atom",
   "main": "./lib/mrt-atom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Elixir test watcher for Atom",
   "keywords": [],
   "dependencies": {
