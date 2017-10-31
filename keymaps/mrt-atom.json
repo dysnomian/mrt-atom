@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "mrt-atom:toggle"
+    "ctrl-alt-o": "mix-test-watch:toggle"
   }
 }

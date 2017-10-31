@@ -1,6 +1,6 @@
 {
-  "name": "mrt-atom",
-  "main": "./lib/mrt-atom",
+  "name": "mix-test-watch",
+  "main": "./lib/mix-test-watch",
   "version": "0.1.0",
   "description": "Elixir test watcher for Atom",
   "keywords": [],
@@ -8,14 +8,14 @@
     "atom-message-panel": "^1.2.7"
   },
   "activationCommands": {
-    "atom-workspace": "mrt-atom:toggle"
+    "atom-workspace": "mix-test-watch:toggle"
   },
   "author": {
-    "name": "Christian Schultheiss"
+    "name": "Liss McCabe"
   },
-  "repository": "https://github.com/chriserik/mrt-atom",
+  "repository": "https://github.com/dysnomian/mix-test-watch",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.21.0 <2.0.0"
   }
 }

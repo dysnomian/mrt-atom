@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Start/Stop Elixir test watcher",
-        "command": "mrt-atom:toggle"
+        "label": "Start/Stop mix test.watch",
+        "command": "mix-test-watch:toggle"
       }
     ]
   },
@@ -12,15 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Elixir test watcher",
+          "label": "mix test.watch",
           "submenu": [
             {
               "label": "Start/Stop",
-              "command": "mrt-atom:toggle"
+              "command": "mix-test-watch:toggle"
             },
             {
               "label": "Run all tests",
-              "command": "mrt-atom:run_all"
+              "command": "mix-test-watch:run_all"
             }
           ]
         }
